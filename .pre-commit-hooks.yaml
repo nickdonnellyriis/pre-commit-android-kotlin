@@ -1,7 +1,7 @@
 - id: ktlint
   name: ktlint
   description: Runs ktlint
-  entry: ../../products/ff/android/gradle/gradlew ktlintFormat
+  entry: ktlint --format
   pass_filenames: false
   language: system
 
